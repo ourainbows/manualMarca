@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "Adumu";
+  src: url(./fonts/Adumu.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  color: #050533;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Montserrat";
+  font-size: 1.6rem;
+}
+main {
+  border: 3px solid #00c6d2;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.logo,
+.variation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tittle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tittle-line {
+  background-color: #050533;
+  width: 20rem;
+  height: 3px;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+h1,
+h2 {
+  font-size: 4rem;
+  font-family: "Adumu";
+  background-color: #00c6d2;
+}
+h2 {
+  font-size: 3rem;
+}
+.logo-img {
+  height: 20rem;
+  width: 30rem;
+}
+.palette {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.palette-container {
+  text-align: center;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+.palette-color {
+  width: 9rem;
+  height: 3rem;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+#palette-color-blue {
+  background-color: #00c6d2;
+}
+#palette-color-blue-king {
+  background-color: #050533;
+}
+#palette-color-pink {
+  background-color: #ff2768;
+}
+.variation {
+  margin-top: 2rem;
+}
+.variation-img {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  height: 15rem;
+  width: 18rem;
+}
+#typo-tittle {
+  margin-bottom: 5rem;
+}
+
+#adumu {
+  font-family: "Adumu";
+  font-size: 2.5rem;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+#monstserrat {
+  font-size: 2.5rem;
+  font-weight: normal;
+  text-align: center;
+}
